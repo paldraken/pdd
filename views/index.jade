@@ -1,6 +1,6 @@
 extends layouts/layout
 block content
-    if (locals.env == 'production')
+    if (process.env.NODE_ENV == 'production')
         script(src='/js/app.min.js')
     else
         script(data-main='js/config', src="/lib/requirejs/require.js")
