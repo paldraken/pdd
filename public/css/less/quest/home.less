@@ -1,0 +1,81 @@
+.bilets-home {
+  margin-top: 10px;
+
+  .nav-link {
+    &:hover {
+//      text-decoration: underline;
+      border-bottom: 1px solid @link_color;
+    }
+  }
+
+  .bilet-list-container {
+
+    .bilet-list-item {
+      white-space: nowrap;
+      margin-bottom: 5px;
+
+      .bilet-number {
+        font-weight: bold
+      }
+    }
+  }
+
+  .themes-list {
+    width: 100%;
+    list-style: none;
+
+    li {
+      width: 100%;
+    }
+
+    .theme-link {
+      margin-right: 10px;
+    }
+
+    .show-section {
+      color: @color_blue;
+      font-size: 0.7em;
+      &:hover {
+        color: @color_blue;
+        text-decoration: underline;
+      }
+    }
+
+    .theme-sections {
+      list-style: none;
+      font-size: 0.8em;
+
+      .section-item {
+        padding: 4px 0;
+        line-height: 0.9em;
+
+        .item-section_num {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: @screen-sm) {
+  .bilets-home {
+
+    .bilet-list-container {
+      margin-left: -15px;
+
+      .bilet-list-item {
+        font-size: 11px;
+
+        .nav-link {
+          margin-left: -10px;
+
+          .bilet-number {
+            margin-left: -5px;
+          }
+        }
+      }
+    }
+  }
+
+}

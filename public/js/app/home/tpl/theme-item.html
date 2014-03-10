@@ -1,0 +1,19 @@
+<% if (examHistory === '' || isNaN(examHistory)) { %>
+<i class="icon-help-circled" title="Не проходился"></i>
+<% } else if (examHistory === 0) { %>
+<i class="icon-star color_good" title="Пройден идеально"></i>
+<% } else if (examHistory < 3) { %>
+<i class="icon-alert color_warn" title="Пройден с ошибками"></i>
+<% } else { %>
+<i class="icon-alert color_danger" title="Не пройден, много ошибок"></i>
+<% } %>
+<a href="/#t/<%= themeNum %>" class="nav-link theme-link"><%= themeName %></a>
+<a href="javascript:void(0);" class="show-section">разделы</a>
+<ul class="theme-sections" style="display: none">
+    <% _.each(themeSections, function(item) { %>
+        <li class="section-item">
+            <span class="item-section_num">Раздел <%= item.pddSection %>.</span>
+            <%= item.pddName %>
+        </li>
+    <% }) %>
+</ul>

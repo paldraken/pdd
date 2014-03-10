@@ -1,0 +1,14 @@
+<p class="question-text">
+    <%= questionText %>
+</p>
+<% if(questionImageRaw) { %>
+<img class="quest-image" src="<%= questionImageRaw %>">
+<% } else { %>
+<div class="blank-row"></div>
+<% } %>
+<p class="secondary alert">Верный ответ: <%= rightAnswer %></p>
+<p class="danger alert">Ваш ответ: <%= userAnswer %></p>
+<p class="result-hint">
+    <%= hint %>
+</p>
+

@@ -1,0 +1,30 @@
+{
+    "name": "pdd-app",
+    "version": "0.0.1",
+    "dependencies": {
+        "jquery": "*",
+        "marionette": "*",
+        "requirejs": "*",
+        "requirejs-text": "*",
+        "almond": "~0.2.9",
+        "gumby": "*",
+        "modernizr": "*",
+        "less": "*"
+    },
+    "exportsOverride": {
+        "backbone.wreqr": {
+            "": "lib/amd/backbone.wreqr.js"
+        },
+        "modernizr": {
+            "": "modernizr.js"
+        },
+        "requirejs-text": {
+            "": "text.js"
+        },
+        "gumby": {
+            "gumby/css": "css/gumby.css",
+            "": "gumby.min.js",
+            "gumby/fonts": "fonts/*"
+        }
+    }
+}

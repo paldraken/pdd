@@ -1,0 +1,101 @@
+[{
+    "themeNum": 1,
+    "themeName": "Общие положения",
+    "themeSections": [
+        {"pddSection": "1", "pddName": "Общие положения"},
+        {"pddSection": "4", "pddName": "Обязанности пешеходов и пассажиров"}
+    ],
+    "themeQuests": [1]
+}, {
+    "themeNum": 2,
+    "themeName": "Дорожные знаки",
+    "themeSections": [
+        {"pddSection": "п1", "pddName": "Дорожные знаки"}
+    ],
+    "themeQuests": [2, 3, 4]
+}, {
+    "themeNum": 3,
+    "themeName": "Дорожная разметка",
+    "themeSections": [
+        {"pddSection": "п2", "pddName": "Дорожная разметка"}
+    ],
+    "themeQuests": [5]
+}, {
+    "themeNum": 4,
+    "themeName": "Сигналы",
+    "themeSections": [
+        {"pddSection": "3", "pddName": "Применение специальных сигналов"},
+        {"pddSection": "6", "pddName": "Сигналы светофора и регулировщика"}
+    ],
+    "themeQuests": [6]
+}, {
+    "themeNum": 5,
+    "themeName": "Начало движения, маневрирование, аварийные сигналы",
+    "themeSections": [
+        {"pddSection": "7", "pddName": "Применение аварийной сигнализации и знака аварийной остановки"},
+        {"pddSection": "8", "pddName": "Начало движения, маневрирование"}
+    ],
+    "themeQuests": [7, 8, 9]
+}, {
+    "themeNum": 6,
+    "themeName": "Скорость движения, расположение на проезжей части",
+    "themeSections": [
+        {"pddSection": 9, "pddName": "Расположение транспортных средств на проезжей части"},
+        {"pddSection": 10, "pddName": "Скорость движения"}
+    ],
+    "themeQuests": [10]
+}, {
+    "themeNum": 7,
+    "themeName": "Обгон, опережение, встречный разъезд",
+    "themeSections": [
+        {"pddSection": 11, "pddName": "Обгон, опережение, встречный разъезд"}
+    ],
+    "themeQuests": [11]
+}, {
+    "themeNum": 8,
+    "themeName": "Остановка и стоянка",
+    "themeSections": [
+        {"pddSection": 12, "pddName": "Остановка и стоянка"}
+    ],
+    "themeQuests": [12]
+}, {
+    "themeNum": 9,
+    "themeName": "Проезд перекрестков",
+    "themeSections": [
+        {"pddSection": 13, "pddName": "Проезд перекрестков"}
+    ],
+    "themeQuests": [13, 14, 15]
+}, {
+    "themeNum": 10,
+    "themeName": "Автомагистрали, Ж/Д пути, жилые зоны, пешеходные переходы",
+    "themeSections": [
+        {"pddSection": 14, "pddName": "Пешеходные переходы и остановки маршрутных транспортных средств"},
+        {"pddSection": 15, "pddName": "Движение через железнодорожные пути"},
+        {"pddSection": 16, "pddName": "Движение по автомагистралям"},
+        {"pddSection": 17, "pddName": "Движение в жилых зонах"},
+        {"pddSection": 18, "pddName": "Приоритет маршрутных транспортных средств"}
+    ],
+    "themeQuests": [16]
+}, {
+    "themeNum": 11,
+    "themeName": "Световые приборы, буксировка, перевозка людей и грузов",
+    "themeSections": [
+        {"pddSection": 19, "pddName": "Пользование внешними световыми приборами и звуковыми сигналами"},
+        {"pddSection": 20, "pddName": "Буксировка механических транспортных средств"},
+        {"pddSection": 21, "pddName": "Учебная езда"},
+        {"pddSection": 22, "pddName": "Перевозка людей"},
+        {"pddSection": 23, "pddName": "Перевозка грузов"},
+        {"pddSection": 24, "pddName": "Дополнительные требования к движению велосипедов, мопедов, гужевых повозок"}
+    ],
+    "themeQuests": [17]
+}, {
+    "themeNum": 12,
+    "themeName": "Медицина, ответственность, безопасность движения",
+    "themeSections": [
+        {"pddSection": "", "pddName": "Оказание первой помощи"},
+        {"pddSection": "", "pddName": "Отвественность водителя"},
+        {"pddSection": "", "pddName": "Допуск транспортных средств"},
+        {"pddSection": "", "pddName": "Ответственность водителя"}
+    ],
+    "themeQuests": [18, 19, 20]
+}]

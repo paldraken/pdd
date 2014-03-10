@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="twelve columns text-center">
+        <h4><%= biletName %>. Вопрос <%= index+1 %></h4>
+    </div>
+</div>
+<div class="row">
+    <div class="columns seven">
+        <% if(questionImageRaw) { %>
+        <img class="quest-image" src="<%= questionImageRaw %>">
+        <% } else { %>
+        <div class="blank-row"></div>
+        <% } %>
+        <p class="question-text">
+            <%= questionText %>
+        </p>
+        <ul class="question-answers">
+            <% _.each(answers, function(ans, i) { %>
+                <li class="answer-item" data-pos="<%= i %>" data-id="<%= ans._id %>">
+                    <%= ans.answerText %>
+                </li>
+            <% }); %>
+        </ul>
+        <div class="warning alert choice-alert" style="display: none">выберите ответ</div>
+        <div class="row">
+            <div class="columns three">
+                <div class="medium primary btn icon-left icon-check confirm">
+                    <a href="javascript:void(0);">Ответить</a>
+                </div>
+            </div>
+            <div class="columns nine">
+                <span class="small-grey">Используйте кнопки 1..4. Повторное нажатие &ndash; ответ.</span>
+            </div>
+        </div>
+    </div>
+    <div class="columns four">
+        <div class="question-hint">
+            <p class="hint-head">Воспользоватся подсказкой:</p>
+            <p class="small-grey">Ответ при этом не зачтется.</p>
+            <div class="medium default btn icon-right entypo icon-help-circled show-hint"><a href="javascript:void(0);">Показать подсказку</a></div>
+            <p class="hint-container">
+
+            </p>
+
+        </div>
+    </div>
+</div>

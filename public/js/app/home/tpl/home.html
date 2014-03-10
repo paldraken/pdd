@@ -1,0 +1,23 @@
+<h4>Билеты списком</h4>
+<ul class="four_up tiles bilet-list-container">
+    <% for(var i = 1; i <= 40; i++) { %>
+        <li class="bilet-list-item">
+            <% if (examHistory[i] === '' || isNaN(examHistory[i])) { %>
+                <i class="icon-help-circled" title="Не проходился"></i>
+            <% } else if (examHistory[i] === 0) { %>
+                <i class="icon-star color_good" title="Пройден идеально"></i>
+            <% } else if (examHistory[i] < 3) { %>
+                <i class="icon-alert color_warn" title="Пройден с ошибками"></i>
+            <% } else { %>
+                <i class="icon-alert color_danger" title="Не пройден, много ошибок"></i>
+            <% } %>
+            <a class="nav-link" href="/#b/<%=i%>">Билет&nbsp;№&nbsp;
+                <span class="bilet-number"><%= i %></span>
+            </a>
+        </li>
+    <% } %>
+</ul>
+<h4 class="theme-list-caption">Билеты по темам</h4>
+<ul class="themes-list">
+
+</ul>

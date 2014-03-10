@@ -1,0 +1,56 @@
+.header {
+  background: @menu_bg;
+  padding: 0;
+  position: relative;
+
+  .header-contact {
+    position: absolute;
+    top: 0;
+    right: 2%;
+  }
+
+  .title {
+    padding: 5px 0 0 5px;
+    font-size: 35px;
+    font-family: @font_serif_caption;
+  }
+  .subtitle {
+    margin-top: -5px;
+    margin-left: 15px;
+  }
+  .subtitle_alert {
+    text-align: right;
+    padding-right: 10px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    background: darken(@menu_bg, 10%);
+    color: @color_primary;
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .header {
+
+    .title {
+      font-size: 26px;
+    }
+
+    .subtitle_alert {
+      font-size: 10px;
+    }
+    .subtitle {
+      font-size: 9px;
+    }
+    .header-contact {
+      display: none;
+    }
+  }
+  .pdd-menu {
+    .btn {
+      a {
+        font-size: 10px;
+        padding: 0 4px;
+      }
+    }
+  }
+}

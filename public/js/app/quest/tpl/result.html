@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="twelve columns text-center">
+        <h4>Билет № <%= biletNum %>.</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="columns twelve">
+        <% if(!badCount) { %>
+        <h3>Молодец! Нет ошибок.</h3>
+        <% } else if(badCount < 3) { %>
+        <h3>Экзамен сдан.</h3>
+        <% } else { %>
+        <h3>Это провал.</h3>
+        <% } %>
+        <p>
+            Правильных ответов <%= allCount - badCount %> из <%= allCount %>
+            <% if (hintQuestions) { %>
+            ( подсказок: <%= hintQuestions %> )
+            <% } %>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="twelve columns text-center quest-nav">
+        <% if (biletNum != 1) { %>
+        <a class="quest-nav-link" href="/#b/<%=biletNum - 1%>">предыдущий билет</a>
+        <% } %>
+        <a class="quest-nav-link" href="/#">список вопросов</a>
+        <% if (biletNum != 40) { %>
+        <a class="quest-nav-link" href="/#b/<%=biletNum + 1%>">следующий билет</a>
+        <% } %>
+    </div>
+</div>
+<div class="row">
+    <div class="columns twelve">
+        <% if (badCount) { %>
+        <h4>Неверные ответы:</h4>
+        <% } %>
+        <div class="bad-question-list"></div>
+    </div>
+</div>

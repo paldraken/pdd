@@ -1,0 +1,14 @@
+{
+    "port": 3000,
+    "db": {
+        "uri": "localhost",
+        "options": {}
+    },
+    "parser_pdd": {
+        "base_url": "http://www.gibdd.ru/mens/avtovladeltsam/exm/ab/"
+    },
+    "parser_hint": {
+        "host": "",
+        "base_url": ""
+    }
+}

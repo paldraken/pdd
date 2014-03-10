@@ -1,0 +1,96 @@
+.question {
+
+  @import "home";
+
+  .progress-container {
+
+  }
+
+  .quest-container {
+
+    .question-text {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    .question-answers {
+      font-size: 0.8em;
+      list-style-type: decimal;
+
+      .answer-item {
+        cursor: pointer;
+        margin: 8px 0;
+        padding: 0 10px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .active {
+        background-color: @active_col;
+      }
+    }
+
+    .small-grey {
+      font-size: 0.7em;
+      color: #9c9c9c;
+    }
+
+    .blank-row {
+      height: 15px;
+    }
+
+    .question-hint {
+
+      .hint-container {
+        font-size: 0.9em;
+      }
+    }
+
+    .questions-result {
+
+      .quest-nav {
+
+        .quest-nav-link {
+          font-size: 0.8em;
+          margin: 0 0.4em;
+          border-bottom: 1px solid;
+        }
+      }
+
+      .bad-answers {
+        font-size: 0.8em;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #808080;
+
+        .question-text {
+          font-size: 1.1em;
+          font-weight: bold;
+        }
+
+        .quest-image {
+          width: 40%;
+        }
+        .alert {
+          font-size: 1em;
+        }
+
+      }
+
+      .result-hint {
+        font-size: 0.8em;
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: @screen-sm) {
+  .progress-container {
+    .progress-item {
+      padding: 0 4px;
+    }
+  }
+}

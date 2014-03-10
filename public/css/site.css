@@ -1,0 +1,199 @@
+.header {
+  background: #bae0ff;
+  padding: 0;
+  position: relative;
+}
+.header .header-contact {
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+.header .title {
+  padding: 5px 0 0 5px;
+  font-size: 35px;
+  font-family: 'PT Serif Caption', serif;
+}
+.header .subtitle {
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.header .subtitle_alert {
+  text-align: right;
+  padding-right: 10px;
+  margin-top: -10px;
+  margin-bottom: 0;
+  background: #87c9ff;
+  color: #44951e;
+}
+@media (max-width: 570px) {
+  .header .title {
+    font-size: 26px;
+  }
+  .header .subtitle_alert {
+    font-size: 10px;
+  }
+  .header .subtitle {
+    font-size: 9px;
+  }
+  .header .header-contact {
+    display: none;
+  }
+  .pdd-menu .btn a {
+    font-size: 10px;
+    padding: 0 4px;
+  }
+}
+.content-info {
+  margin-top: 50px;
+  min-height: 150px;
+  background: #f3f6ff;
+}
+.content-info p {
+  font-family: Times New Roman, Times, serif;
+  font-size: 14px;
+  padding: 10px;
+}
+.content-info .footer-nav {
+  margin-top: 10px;
+  margin-left: 15%;
+  font-size: 0.8em;
+}
+.content-info .footer-nav a:hover {
+  border-bottom: 1px solid #d04526;
+}
+.footer {
+  background: #c0d0ff;
+}
+.footer .info-row {
+  padding: 10px 20px;
+}
+.footer .gibbd-row .gibbd_logo img {
+  vertical-align: middle;
+}
+.footer .gibbd-row .gibbd_text {
+  font-family: Times New Roman, Times, serif;
+  padding-left: 15px;
+}
+.question .bilets-home {
+  margin-top: 10px;
+}
+.question .bilets-home .nav-link:hover {
+  border-bottom: 1px solid #d04526;
+}
+.question .bilets-home .bilet-list-container .bilet-list-item {
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+.question .bilets-home .bilet-list-container .bilet-list-item .bilet-number {
+  font-weight: bold;
+}
+.question .bilets-home .themes-list {
+  width: 100%;
+  list-style: none;
+}
+.question .bilets-home .themes-list li {
+  width: 100%;
+}
+.question .bilets-home .themes-list .theme-link {
+  margin-right: 10px;
+}
+.question .bilets-home .themes-list .show-section {
+  color: #5b9ede;
+  font-size: 0.7em;
+}
+.question .bilets-home .themes-list .show-section:hover {
+  color: #5b9ede;
+  text-decoration: underline;
+}
+.question .bilets-home .themes-list .theme-sections {
+  list-style: none;
+  font-size: 0.8em;
+}
+.question .bilets-home .themes-list .theme-sections .section-item {
+  padding: 4px 0;
+  line-height: 0.9em;
+}
+.question .bilets-home .themes-list .theme-sections .section-item .item-section_num {
+  font-weight: bold;
+}
+@media (max-width: 570px) {
+  .question .bilets-home .bilet-list-container {
+    margin-left: -15px;
+  }
+  .question .bilets-home .bilet-list-container .bilet-list-item {
+    font-size: 11px;
+  }
+  .question .bilets-home .bilet-list-container .bilet-list-item .nav-link {
+    margin-left: -10px;
+  }
+  .question .bilets-home .bilet-list-container .bilet-list-item .nav-link .bilet-number {
+    margin-left: -5px;
+  }
+}
+.question .quest-container .question-text {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.question .quest-container .question-answers {
+  font-size: 0.8em;
+  list-style-type: decimal;
+}
+.question .quest-container .question-answers .answer-item {
+  cursor: pointer;
+  margin: 8px 0;
+  padding: 0 10px;
+}
+.question .quest-container .question-answers .answer-item:hover {
+  text-decoration: underline;
+}
+.question .quest-container .question-answers .active {
+  background-color: #87c6da;
+}
+.question .quest-container .small-grey {
+  font-size: 0.7em;
+  color: #9c9c9c;
+}
+.question .quest-container .blank-row {
+  height: 15px;
+}
+.question .quest-container .question-hint .hint-container {
+  font-size: 0.9em;
+}
+.question .quest-container .questions-result .quest-nav .quest-nav-link {
+  font-size: 0.8em;
+  margin: 0 0.4em;
+  border-bottom: 1px solid;
+}
+.question .quest-container .questions-result .bad-answers {
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #808080;
+}
+.question .quest-container .questions-result .bad-answers .question-text {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.question .quest-container .questions-result .bad-answers .quest-image {
+  width: 40%;
+}
+.question .quest-container .questions-result .bad-answers .alert {
+  font-size: 1em;
+}
+.question .quest-container .questions-result .result-hint {
+  font-size: 0.8em;
+}
+@media (max-width: 570px) {
+  .progress-container .progress-item {
+    padding: 0 4px;
+  }
+}
+.color_good {
+  color: #44951e;
+}
+.color_warn {
+  color: #f6b83f;
+}
+.color_danger {
+  color: #ca3838;
+}
+/*# sourceMappingURL=http://localhost:3000/css/site.css.map */
