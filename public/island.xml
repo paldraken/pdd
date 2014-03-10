@@ -19,12 +19,12 @@
             <description caption="Проверить знания о:">
                 <modifyResource placeholder="bilet"/>
             </description>
-            <dropDownValue key="#random" caption="Случайный билет"/>
             <dropDownValue key="#t/2" caption="Дорожных знаках"/>
             <dropDownValue key="#t/9" caption="Проезде перекрестков"/>
             <dropDownValue key="#t/7" caption="Обгону, опережению"/>
             <dropDownValue key="#t/8" caption="Останоке и стоянке"/>
             <dropDownValue key="#t/3" caption="Дорожной разметке"/>
+            <dropDownValue key="#random" caption="Решить случайный билет"/>
         </dropDown>
     </filters>
 </site>
