@@ -27,9 +27,6 @@ define([
                 }
             }
         },
-        onBeforeRender: function() {
-            console.log('onBeforeRender');
-        },
         onShow: function() {
             var self = this;
             if(this.showParam == 'th') {

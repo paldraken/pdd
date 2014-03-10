@@ -4,9 +4,6 @@ define([
 ], function(App, AppRouter) {
 
     return function() {
-
-        console.log('init');
-
         App.addRegions({
             pddQuestions: "#pdd-questions",
             pddHeader: "#pdd-header"

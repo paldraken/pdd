@@ -38,11 +38,3 @@ define([
     appInit();
     mainApp.start();
 });
-
-//require( [ "app/app", "app/appinit", "backbone", "marionette"], function () {
-//    require(["app/app", "app/appinit"], function (mainApp, appInit) {
-//        console.log(111);
-//        appInit();
-//        mainApp.start();
-//    });
-//});
