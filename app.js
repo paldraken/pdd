@@ -30,11 +30,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 require('./routes/pdd')(app);
 require('./routes/site')(app);
 
-// development only
-//if ('development' == app.get('env')) {
-////  app.use(express.errorHandler());
-//}
-
 app.use(function(req, res, next) {
     res.status(404);
     if (res.req.headers['x-requested-with'] == 'XMLHttpRequest') {
