@@ -36,7 +36,6 @@ require('./routes/site')(app);
 //}
 
 app.use(function(req, res, next) {
-    console.log(404);
     res.status(404);
     if (res.req.headers['x-requested-with'] == 'XMLHttpRequest') {
         res.json(err);
