@@ -21,17 +21,20 @@ define([
         },
         doTheme: function(themeId) {
             App.pddQuestions.show(new Quest({questId: themeId, questType: 'theme'}));
+        },
+        doRandom: function() {
+            var randomBilet = Math.floor(Math.random() * 40) + 1;
+            Backbone.history.navigate('b/' + randomBilet, {trigger: true});
         }
     });
 
     return Marionette.AppRouter.extend({
         controller: new appController(),
         appRoutes: {
+            'random': 'doRandom',
             '(:param)': 'doHome',
             'b/:id': 'doQuestion',
             't/:id': 'doTheme'
-        },
-        initialize: function() {
         }
     });
 
