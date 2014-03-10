@@ -13,7 +13,7 @@ if (fs.existsSync(path.join(__dirname, 'config.json'))) {
 var conf = nconf
     .argv()
     .env()
-    .file(path.join(__dirname, 'config.json'));
+    .file(confFile);
 
 module.exports = conf;
 
