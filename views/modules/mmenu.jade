@@ -1,8 +1,12 @@
 .header
     h1.title: a(href='/') Экзамен ПДД 2014
-    p.subtitle для самостоятельной онлайн подготовки к экзамену ПДД
-    p.subtitle_alert: strong полностью соответствует билетам ГИБДД за 2014 год
     a.header-contact(href='mailto:pdd@examen-pdd.ru', title='Пишите по любым вопросам') pdd@examen-pdd.ru
+    p.subtitle для самостоятельной онлайн подготовки к экзамену ПДД
+    .row
+        .columns.four
+            include social
+        .columns.eight
+            p.subtitle_alert: strong полностью соответствует билетам ГИБДД за 2014 год
 nav.pdd-menu
     .medium.default.btn: a(href='/#') Билеты ПДД онлайн
     .medium.default.btn: a(href='/#th') Билеты по темам

@@ -8,6 +8,9 @@
   top: 0;
   right: 2%;
 }
+.header .social-likes .social-likes__widget {
+  margin: 0 6px;
+}
 .header .title {
   padding: 5px 0 0 5px;
   font-size: 35px;
@@ -20,7 +23,6 @@
 .header .subtitle_alert {
   text-align: right;
   padding-right: 10px;
-  margin-top: -10px;
   margin-bottom: 0;
   background: #87c9ff;
   color: #44951e;
